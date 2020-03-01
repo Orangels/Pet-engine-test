@@ -1,0 +1,6 @@
+PET_ROOT: '/home/user/workspace/Pet-dev'
+MODULES:
+  SSDDET:
+    GPU_ID: 0
+    CFG: 'ckpts/gongdi_models/ssd_VGG16_300x300_car_1x/ssd_VGG16_300x300_1x.yaml'
+#    CFG: 'ckpts/gongdi_models/ssd_VGG16_300x300_fog_1x/ssd_VGG16_300x300_1x.yaml'

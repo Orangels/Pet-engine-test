@@ -1,0 +1,13 @@
+PET_ROOT: '/home/user/workspace/yangdonghan/Pet-dev'
+MODULES:
+  SEMSEG:
+    CFG: 'cfgs/semseg/smart_ground/R-18-dilated_ppm_deep_sup_smartground_80_epoch_ADE_pretrained_lr0.001.yaml'
+    GPU_ID: 0
+    NUM_CLASSES: 3
+    BACKBONE:
+      CONV_BODY: 'resnet_mit'
+    TEST:
+      BASE_SIZE: 512
+      MAX_SIZE: 1000
+      VIS_ENABLED: False
+
